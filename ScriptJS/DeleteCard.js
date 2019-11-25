@@ -1,0 +1,1 @@
+document.getElementById("btnDC").addEventListener("click", () => {})

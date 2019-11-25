@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Yu-Gi-OH Inventory</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="work/fonts/icomoon/style.css">
+    <link rel="stylesheet" href="workshop/css/bootstrap.min.css">
+    <link rel="stylesheet" href="workshop/css/magnific-popup.css">
+    <link rel="stylesheet" href="workshop/css/jquery-ui.css">
+    <link rel="stylesheet" href="workshop/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="workshop/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="workshop/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="workshop/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="workshop/css/aos.css">
+
+    <link rel="stylesheet" href="workshop/css/style.css">
+
+
+    
+      
+      <h1>Modify Card</h1>
+    </head>
+    <body>
+
+      Card Name : <input type="text" name="name" id="name" style="margin-top:20px;"><br>
+    
+      Type : 
+      <select name="Type" id="Type" style="margin:20px;">
+
+          <option value="">--Please choose an option--</option>
+
+          <optgroup label="Monster">
+              <option value="Monstres normaux">Monstres normaux</option>
+              <option value="Monstres à effet">Monstres à effet</option>
+              <option value="Monstres fusion">Monstres fusion</option>
+              <option value="Monstres synchro">Monstres synchro</option>
+              <option value="Monstres lien">Monstres lien</option>
+              <option value="Monstre pendule">Monstre pendule</option>
+              <option value="Monstres xyz">Monstres xyz</option>
+              <option value="Monstres rituel">Monstres rituel</option>
+          </optgroup>
+          <optgroup label="Magic">
+              <option value="Magie normale">Magie normale</option>
+              <option value="Magie de terrain">Magie de terrain</option>
+              <option value="Magie d'équipement">Magie d'équipement</option>
+              <option value="Magie de rituel">Magie de rituel</option>
+              <option value="Magie jeu-rapide">Magie jeu-rapide</option>
+              <option value="Magie continue">Magie continue</option>
+          </optgroup>
+          <optgroup label="Trap">
+              <option value="Piège normal">Piège normal</option>
+              <option value="Piège continu">Piège continu</option>
+              <option value="Contre-piège">Contre-piège</option>
+          </optgroup>
+    
+      </select>
+
+      <br>
+      Description : <textarea rows="4" cols="30" id="desc" form="usrform"></textarea><br>
+      Short Description : <textarea rows="1" cols="30" id="sdesc" form="usrform" style="margin-top:20px;"></textarea><br>
+
+      Ref/Edition : <input type="text" name="ref" id="ref" style="margin-top:20px;"><br>
+    
+      Quantity : <input type="text" name="qu" id="qu" style="margin-top:20px;"><br>
+
+      <input type="button" value="Modify Card" id="btnMdd" style="margin-top:20px;"/><br>
+      <input type="button" value="Delete Card" id="btnDtt" style="margin-top:20px; color:red;"/><br>
+    
+    </body>
+
+    <script src="ScriptJS/MD.js"></script>
+</html>

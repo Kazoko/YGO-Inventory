@@ -1,0 +1,42 @@
+{
+  "name": "ygo_inventory",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "start.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . YGOInventory"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "autoprefixer": "^9.7.1",
+    "css-loader": "^3.2.0",
+    "electron": "^7.1.1",
+    "electron-builder": "^21.2.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "electron-css": "^0.14.6",
+    "electron-packager": "^14.1.0",
+    "electron-updater": "^4.2.0",
+    "honeycomb-web-toolkit": "git+https://github.com/red-gate/honeycomb-web-toolkit.git",
+    "jQuery": "^1.7.4",
+    "mysql": "^2.17.1",
+    "npc": "0.0.1",
+    "update-electron-app": "^1.5.0"
+  }
+}
